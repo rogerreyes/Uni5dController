@@ -18,4 +18,9 @@ public class Prueba {
 	private int numero;
 	private String  caracter;
 	
+	@Override
+	public String toString() {
+		return "Prueba [numero=" + numero + ", caracter=" + caracter + "]";
+	}
+	
 }
