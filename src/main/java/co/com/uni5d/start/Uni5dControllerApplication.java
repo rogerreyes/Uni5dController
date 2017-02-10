@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("co.com.uni5d")
 public class Uni5dControllerApplication {
 
+	
 	public static void main(String[] args) {
 		SpringApplication.run(Uni5dControllerApplication.class, args);
 	}
